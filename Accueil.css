@@ -9,7 +9,7 @@
 }
 
 .wrapper{
-  position: relative;
+  position: absolute;
   border-bottom: 0px;
   left: 50px;
   max-width: 365px;
