@@ -9,7 +9,7 @@
 }
 
 .wrapper{
-  position: relative;
+  position: absolute;
   border-bottom: 0px;
   left: 50px;
   max-width: 365px;
@@ -876,7 +876,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 400px;
-  background-image: url("images/galleta.jpg");
+  background-image: url("images/confit.jpg");
   background-position: 50% 50%;
 }
 
