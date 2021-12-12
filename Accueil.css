@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:[email protected];300;400;500;600;700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .wrapper{
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
+  position: relative;
+  border-bottom: 0px;
+  left: 50px;
   max-width: 365px;
   background: #fff;
   padding: 25px 25px 30px 25px;
@@ -50,7 +53,7 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
-  background: #FCBA7F;
+  background: #C70039;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -61,7 +64,7 @@
   margin: 0 10px;
 }
 .buttons a{
-  color: #FCBA7F;
+  color:#C70039;
 }
 
 .table{
@@ -69,6 +72,18 @@
   font-size: medium;
   font-style: italic;
   font-family: serif;
+}
+
+.somo .row{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  max-width: 365px;
+  background: #fff;
+  padding: 25px 25px 30px 25px;
+  border-radius: 15px;
+  box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.15);
+  text-align: center;
 }
 
 .u-section-1 {
