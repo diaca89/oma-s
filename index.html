@@ -108,38 +108,38 @@
         </div>
       </nav>
     </div>
-
-
-  </header>
-  <div class="wrapper">
-   <img src="images/cookie.jpg" alt="">
-   <div class="content">
-     <header>Usamos Cookies</header>
-     <p>This website use cookies to ensure you get the best experience on our website.</p>
-     <div class="buttons">
-       <button class="item">ok</button>
-       <a href="avisoes.html" class="item">Learn more</a>
+    <div class="wrapper">
+     <img src="images/cookie.jpg" alt="">
+     <div class="content">
+       <header>Usamos Cookies</header>
+       <p>This website use cookies to ensure you get the best experience on our website.</p>
+       <div class="buttons">
+         <button class="item">ok</button>
+         <a href="avisoes.html" class="item">Learn more</a>
+       </div>
      </div>
    </div>
- </div>
 
- <script>
-   const cookieBox = document.querySelector(".wrapper"),
-   acceptBtn = cookieBox.querySelector("button");
+   <script>
+     const cookieBox = document.querySelector(".wrapper"),
+     acceptBtn = cookieBox.querySelector("button");
 
-   acceptBtn.onclick = ()=>{
-     //setting cookie for 1 month, after one month it'll be expired automatically
-     document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
-     if(document.cookie){ //if cookie is set
-       cookieBox.classList.add("hide"); //hide cookie box
-     }else{ //if cookie not set then alert an error
-       alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+     acceptBtn.onclick = ()=>{
+       //setting cookie for 1 month, after one month it'll be expired automatically
+       document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+       if(document.cookie){ //if cookie is set
+         cookieBox.classList.add("hide"); //hide cookie box
+       }else{ //if cookie not set then alert an error
+         alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+       }
      }
-   }
-   let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
-   //if cookie is set then hide the cookie box else show it
-   checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
- </script>
+     let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+     //if cookie is set then hide the cookie box else show it
+     checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+   </script>
+
+  </header>
+
   <section class="skrollable u-align-center u-clearfix u-image u-parallax u-shading u-section-1" id="carousel_834e">
     <div class="u-clearfix u-sheet u-sheet-1">
       <h1 class="u-custom-font u-font-playfair-display u-text u-text-1"></h1>
@@ -334,16 +334,16 @@ A diferencia de la repostería industrial, que lleva a cabo producciones en seri
   <section id="contacto" class="margen">
     <div class="row">
       <div class="columns large-12">
-        <h2 class="u-custom-font u-font-playfair-display u-text u-text-default u-text-2">Contacto<br>Nuestros Datos de Contacto</h2>
+        <h2 class="u-custom-font u-font-playfair-display u-text u-text-default u-text-2">Contacto<br> Nuestros Datos de Contacto</h2>
       </div>
       <div class="columns large-6 samll-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.0595171898985!2d-85.13559498563775!3d10.958876892197878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7538694c6dcb3d%3A0x8a8af4112566d600!2sSan%20Jose%20de%20Upala!5e0!3m2!1ses-419!2sch!4v1639344305882!5m2!1ses-419!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          <tbody><br>
+          <tbody> <br>
             <tr>
               <th> Direccion</th>
               <td>San jose de Upala, Alajuela Costa Rica</td>
             </tr>
-            <tr>
+            <tr><br>
               <th> Telefono</th>
               <td>+506 6008 5495</td>
             </tr>

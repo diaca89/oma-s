@@ -108,37 +108,36 @@
         </div>
       </nav>
     </div>
-
-  </header>
-  <div class="wrapper">
-   <img src="images/cookie.jpg" alt="">
-   <div class="content">
-     <header>Usamos Cookies</header>
-     <p>This website use cookies to ensure you get the best experience on our website.</p>
-     <div class="buttons">
-       <button class="item">ok</button>
-       <a href="avisoes.html" class="item">Learn more</a>
+    <div class="wrapper">
+     <img src="images/cookie.jpg" alt="">
+     <div class="content">
+       <header>Usamos Cookies</header>
+       <p>This website use cookies to ensure you get the best experience on our website.</p>
+       <div class="buttons">
+         <button class="item">ok</button>
+         <a href="avisoes.html" class="item">Learn more</a>
+       </div>
      </div>
    </div>
- </div>
 
- <script>
-   const cookieBox = document.querySelector(".wrapper"),
-   acceptBtn = cookieBox.querySelector("button");
+   <script>
+     const cookieBox = document.querySelector(".wrapper"),
+     acceptBtn = cookieBox.querySelector("button");
 
-   acceptBtn.onclick = ()=>{
-     //setting cookie for 1 month, after one month it'll be expired automatically
-     document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
-     if(document.cookie){ //if cookie is set
-       cookieBox.classList.add("hide"); //hide cookie box
-     }else{ //if cookie not set then alert an error
-       alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+     acceptBtn.onclick = ()=>{
+       //setting cookie for 1 month, after one month it'll be expired automatically
+       document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+       if(document.cookie){ //if cookie is set
+         cookieBox.classList.add("hide"); //hide cookie box
+       }else{ //if cookie not set then alert an error
+         alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+       }
      }
-   }
-   let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
-   //if cookie is set then hide the cookie box else show it
-   checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
- </script>
+     let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+     //if cookie is set then hide the cookie box else show it
+     checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+   </script>
+  </header>
 
   <section class="skrollable u-align-center u-clearfix u-image u-parallax u-shading u-section-1" id="carousel_834e">
     <div class="u-clearfix u-sheet u-sheet-1">
